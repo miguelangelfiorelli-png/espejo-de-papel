@@ -1,0 +1,56 @@
+/* Estilo del blog de mafiorelli.com · mismos colores que la web principal */
+:root{--ink:#1e2730;--navy:#17364a;--gold:#b48a4b;--paper:#f7f1e7;--cream:#fffaf3;--wine:#713f45;--muted:#66727a}
+*{box-sizing:border-box}
+html,body{max-width:100%;overflow-x:hidden}
+body{margin:0;color:var(--ink);font-family:Georgia,'Times New Roman',serif;background:var(--cream);line-height:1.65}
+a{color:inherit}
+img{max-width:100%;display:block}
+.nav{position:sticky;top:0;z-index:50;background:rgba(255,250,243,.96);border-bottom:1px solid #ddd0bd;display:flex;justify-content:center;gap:28px;padding:13px 18px;font-family:Arial,sans-serif}
+.nav a{text-decoration:none;font-size:13px;letter-spacing:.05em;color:var(--navy)}
+.nav a:hover{color:var(--gold)}
+.eyebrow{font:700 12px/1.2 Arial,sans-serif;letter-spacing:.18em;color:var(--gold);text-transform:uppercase}
+.btn{display:inline-block;padding:13px 20px;border-radius:3px;background:var(--navy);color:#fff;text-decoration:none;font:700 12px Arial,sans-serif;letter-spacing:.08em;margin:10px 8px 0 0}
+.btn.alt{background:transparent;color:var(--navy);border:1px solid var(--navy)}
+
+/* Lista de poesías */
+.head{padding:80px max(24px,calc((100% - 860px)/2)) 40px;background:linear-gradient(135deg,#f9f1e4,#e7f0f0)}
+.head h1{font-size:clamp(42px,6vw,72px);line-height:1;color:var(--navy);font-weight:500;margin:16px 0 20px}
+.head p{font-size:19px;max-width:640px}
+.head .sig{color:var(--wine);font-style:italic}
+.list{padding:50px max(24px,calc((100% - 860px)/2)) 80px}
+.item{display:grid;grid-template-columns:200px 1fr;gap:30px;align-items:start;padding:30px 0;border-bottom:1px solid #e4d9c9}
+.item img{width:100%;aspect-ratio:4/5;object-fit:cover;box-shadow:0 10px 25px #0000001a}
+.item h2{font-size:32px;color:var(--navy);font-weight:500;margin:0 0 10px}
+.item h2 a{text-decoration:none}
+.excerpt{font-style:italic;font-size:18px;color:#3c454b;margin:0 0 14px}
+.more{font:700 12px Arial,sans-serif;letter-spacing:.08em;color:var(--wine);text-decoration:none}
+
+/* Página de una poesía */
+.poem{padding:70px max(24px,calc((100% - 680px)/2)) 80px}
+.poem h1{font-size:clamp(40px,6vw,64px);line-height:1.05;color:var(--navy);font-weight:500;margin:14px 0 6px}
+.author{font-size:19px;color:var(--wine);font-style:italic;margin-bottom:34px}
+.verses p{font-size:21px;line-height:1.7;margin:0 0 26px}
+.verses .hl{color:var(--wine);font-style:italic}
+.firma{font-size:26px;font-style:italic;color:var(--gold);margin:6px 0 40px}
+.poem-img{margin:0 0 30px;padding:10px;background:#fff;border:1px solid #dfd2c0;box-shadow:0 12px 28px #0000000d}
+.poem-img figcaption{text-align:center;color:var(--muted);font-size:13px;padding-top:8px}
+.actions{margin-bottom:30px}
+.pager{display:flex;justify-content:space-between;gap:20px;padding:22px 0;border-top:1px solid #e4d9c9;border-bottom:1px solid #e4d9c9;font:600 14px Arial,sans-serif}
+.pager a{text-decoration:none;color:var(--navy)}
+.pager .next{text-align:right;margin-left:auto}
+.book{margin-top:40px;padding:28px;background:var(--paper);border-left:4px solid var(--gold)}
+.book p{margin:0 0 6px;font-size:18px}
+
+.footer{background:#102532;color:#d9e1e5;text-align:center;padding:25px;font:13px/1.8 Arial,sans-serif}
+.footer a{color:#f4d8a6;text-decoration:none}
+
+@media(max-width:600px){
+  .nav{gap:16px}.nav a{font-size:12px}
+  .head{padding:60px 18px 30px}
+  .list{padding:30px 18px 60px}
+  .item{grid-template-columns:1fr;gap:16px}
+  .item img{aspect-ratio:auto}
+  .poem{padding:50px 18px 60px}
+  .verses p{font-size:19px}
+  .btn{display:block;text-align:center;margin:10px 0 0}
+}
