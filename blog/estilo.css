@@ -79,3 +79,9 @@ img{max-width:100%;display:block}
 .discurso h3{font-size:22px;color:var(--wine);font-weight:500;font-style:italic;margin:34px 0 12px}
 .discurso blockquote{margin:0 0 22px;padding:16px 22px;background:var(--paper);border-left:3px solid var(--gold);font-style:italic;font-size:18px}
 .discurso .destacado{color:var(--wine);font-style:italic;font-size:21px}
+.lectura figcaption span{color:var(--muted);font-size:15px}
+.poema-leido{margin-top:10px;font-size:16px}
+.poema-leido summary{cursor:pointer;color:var(--wine);font:700 12px Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+.poema-leido p{margin:12px 0 0;line-height:1.6}
+.poema-leido .pie{color:var(--muted);font-size:13px}
+.fragmento{max-width:340px;margin:0 0 34px}
