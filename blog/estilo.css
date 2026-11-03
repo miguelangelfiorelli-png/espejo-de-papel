@@ -31,7 +31,8 @@ img{max-width:100%;display:block}
 .author{font-size:19px;color:var(--wine);font-style:italic;margin-bottom:34px}
 .verses p{font-size:21px;line-height:1.7;margin:0 0 26px}
 .verses .hl{color:var(--wine);font-style:italic}
-.firma{font-size:26px;font-style:italic;color:var(--gold);margin:6px 0 40px}
+.firma{font-size:26px;font-style:italic;color:var(--gold);margin:6px 0 10px}
+.fecha{font:13px Arial,sans-serif;letter-spacing:.04em;color:var(--muted);margin:0 0 36px}
 .poem-img{margin:0 0 30px;padding:10px;background:#fff;border:1px solid #dfd2c0;box-shadow:0 12px 28px #0000000d}
 .poem-img figcaption{text-align:center;color:var(--muted);font-size:13px;padding-top:8px}
 .actions{margin-bottom:30px}
