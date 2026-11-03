@@ -54,3 +54,25 @@ img{max-width:100%;display:block}
   .verses p{font-size:19px}
   .btn{display:block;text-align:center;margin:10px 0 0}
 }
+
+/* Secciones del blog (botones arriba de la lista) */
+.tabs{display:flex;flex-wrap:wrap;gap:10px;padding:26px max(24px,calc((100% - 860px)/2)) 0}
+.tab{font:700 12px Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:10px 16px;border:1px solid var(--navy);border-radius:30px;background:transparent;color:var(--navy);cursor:pointer;text-decoration:none}
+.tab.on,.tab:hover{background:var(--navy);color:#fff}
+.tag{display:inline-block;font:700 11px Arial,sans-serif;letter-spacing:.12em;color:var(--gold);text-transform:uppercase;margin-bottom:6px}
+.item.oculto{display:none}
+
+/* Entradas de prensa y presentaciones */
+.intro-text p{font-size:19px;line-height:1.7;margin:0 0 20px}
+.ficha{background:var(--paper);border-left:4px solid var(--gold);padding:20px 24px;margin:0 0 30px;font-size:17px}
+.ficha p{margin:0 0 4px}
+.audio{margin:0 0 34px;padding:18px;background:#fff;border:1px solid #dfd2c0}
+.audio audio{width:100%}
+.audio p{margin:10px 0 0;color:var(--muted);font-size:14px;text-align:center}
+.lecturas{display:grid;grid-template-columns:repeat(2,1fr);gap:26px;margin:10px 0 36px}
+.lectura{margin:0;background:#fff;border:1px solid #dfd2c0;padding:10px}
+.lectura video{width:100%;aspect-ratio:9/16;object-fit:cover;background:#102532}
+.lectura figcaption{padding:10px 4px 2px;font-size:16px}
+.lectura figcaption strong{color:var(--navy)}
+.poem h2{font-size:30px;color:var(--navy);font-weight:500;margin:40px 0 14px}
+@media(max-width:600px){.tabs{padding:22px 18px 0;gap:8px}.tab{font-size:11px;padding:9px 13px}.lecturas{grid-template-columns:1fr}}
