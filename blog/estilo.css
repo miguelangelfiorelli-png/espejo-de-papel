@@ -86,3 +86,7 @@ img{max-width:100%;display:block}
 .poema-leido p{margin:12px 0 0;line-height:1.6}
 .poema-leido .pie{color:var(--muted);font-size:13px}
 .fragmento{max-width:340px;margin:0 0 34px}
+
+/* Poesías solo en texto (sin imagen), 7/11/2026 */
+.item.solo-texto{grid-template-columns:1fr;border-left:3px solid var(--gold);padding-left:24px}
+.item.solo-texto .excerpt{font-size:19px}
