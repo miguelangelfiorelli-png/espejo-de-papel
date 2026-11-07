@@ -91,3 +91,5 @@ img{max-width:100%;display:block}
 .item.solo-texto{grid-template-columns:1fr;border-left:3px solid var(--gold);padding-left:24px}
 .item.solo-texto .excerpt{font-size:19px}
 .yt-lecturas{font-size:18px;color:#3c454b;margin:0}
+.yt-link{display:block;margin-top:8px;font:700 12px Arial,sans-serif;letter-spacing:.06em;color:#b3261e;text-decoration:none}
+.yt-link:hover{text-decoration:underline}
