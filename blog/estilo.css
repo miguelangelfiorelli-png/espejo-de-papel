@@ -90,3 +90,4 @@ img{max-width:100%;display:block}
 /* Poesías solo en texto (sin imagen), 7/11/2026 */
 .item.solo-texto{grid-template-columns:1fr;border-left:3px solid var(--gold);padding-left:24px}
 .item.solo-texto .excerpt{font-size:19px}
+.yt-lecturas{font-size:18px;color:#3c454b;margin:0}
